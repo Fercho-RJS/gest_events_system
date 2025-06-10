@@ -19,3 +19,14 @@ if ($user_role == 'default' && $user_state) {
 <?php
 }
 ?>
+
+<!-- Habilita el logout btn -->
+<?php
+if ($user_state) {
+?>
+  <li class="nav-item">
+    <a id="logout-btn" class="nav-link btn btn-danger rounded-1" href="#"><i class="bi bi-door-open-fill"></i></a>
+  </li>
+<?php
+}
+?>

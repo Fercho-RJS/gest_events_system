@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inicio</title>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
   <!--  Mantener el Custom Index CSS al final  -->
   <link rel="stylesheet" href="css/custom-index.css">
+  
 </head>
 
 <body id="general-container">
@@ -19,7 +20,7 @@
 
   <section id="general-body">
 
-  
+
   </section>
 
   <footer id="general-footer">

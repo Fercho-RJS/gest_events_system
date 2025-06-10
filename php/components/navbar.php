@@ -9,12 +9,12 @@
 
 <nav class="navbar navbar-expand-lg bg-primary">
   <div class="container-fluid ">
-    <a translate="false" class="navbar-brand" href="#" style="font-weight:700; font-size:24px">EventsWeb<span style="color:rgb(176, 190, 199);">.net</span></a>
+    <a translate="false" class="navbar-brand" href="#"><img src="public/img/logos/full_white.png" alt="Logotipo de la web" height="40"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex end-100">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex end-100 gap-2 gap-xl-4 text-center">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Eventos</a>
         </li>
@@ -31,9 +31,13 @@
           if (!$_SESSION['user_logged']) { //Si no hay usuario logueado
           ?>
           <li class="nav-item">
-            <a class="nav-link" href="#">¡Registrarse ahora!</a>
+            <a class="nav-link" id="tag-acceso" href="#"><i class="bi bi-box-arrow-in-right"></i></a>
           </li>
           <?php
+          } else {
+            ?>
+            
+            <?php
           }
         ?>
         <?php
