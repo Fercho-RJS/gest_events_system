@@ -26,29 +26,19 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Consultas</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">¡Registrarse ahora!</a>
-        </li>
-
-        <?php
-          /* Si existe un usuario logueado le asigna su perfil y muestra el tag <a> que le corresponde. */
-
-          if ($_SESSION['user_logged'] && $_SESSION['user_role'] == 'default'){
-            ?>
-            <!-- Vista de usuario default -->
-            <li class="nav-item">
-              <a class="nav-link" href="#">Mi Perfil</a>
-            </li>
-            <?php }
-          else if ($_SESSION['user_logged'] && $_SESSION['user_role'] == 'admin'){
-            ?>
-            <!-- Vista de administrador -->
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Administrador</a>
-            </li>
-            <?php
+        <?php //Quita del navbar la opción si ya iniciaste sesión.
+          if (!$_SESSION['user_logged']) { //Si no hay usuario logueado
+          ?>
+          <li class="nav-item">
+            <a class="nav-link" href="#">¡Registrarse ahora!</a>
+          </li>
+          <?php
           }
         ?>
+        <?php
+          require_once 'perfiles.php';
+        ?>
+
       </ul>
     </div>
   </div>
