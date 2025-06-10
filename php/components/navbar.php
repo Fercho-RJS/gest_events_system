@@ -1,4 +1,5 @@
 <?php
+  require_once 'session_vars_test.php';
   session_start();
 ?>
 

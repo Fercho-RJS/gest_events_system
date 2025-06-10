@@ -1,4 +1,6 @@
 <?php
+require_once 'session_vars_test.php';
+
 $user_state = $_SESSION['user_logged'];
 $user_role = $_SESSION['user_role'];
 
