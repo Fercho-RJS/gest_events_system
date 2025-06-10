@@ -6,4 +6,8 @@
   //User config / configuración de usuario
   $_SESSION['username'] = 'Fernando Rojas';
 
+  
+
+
+  //INCLUIR AL GIT IGNORE.
 ?>
