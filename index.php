@@ -20,8 +20,25 @@
   </header>
 
   <section id="general-body">
+    <div id="" class="row">
+      <div class="col">
 
+      </div>
+      <div class="col">
+        
+      </div>
+      <div id="right-panel" class="col">
+        <div id="right-panel-header">
+          
+        </div>
+        <div id="right-panel-body">
 
+        </div>
+        <div id="right-panel-foot">
+
+        </div>
+      </div>
+    </div>
   </section>
 
   <?php 
