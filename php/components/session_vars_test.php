@@ -1,6 +1,6 @@
 <?php
   //Account configs / Configuraciones de la cuenta.
-  $_SESSION['user_logged'] = true;
+  $_SESSION['user_logged'] = false;
   $_SESSION['user_role'] = 'admin';
   
   //User config / configuración de usuario
