@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
     <!--  Mantener el Custom Index CSS al final  -->
     <link rel="stylesheet" href="css/custom-index.css">
-    <link rel="stylesheet" href="css/registro-style.css">
+    <link rel="stylesheet" href="css/custom-registro.css">
 </head>
 
 <body id="general-container">
@@ -72,18 +72,7 @@
                 <div class="text-center">
                     <button type="submit" class="btn btn-primary">Registrarse</button>
                 </div>
-            </form>
-            <?php
-                /* Evalúa si existe mensaje enviado desde el archivo
-                Si existe mensaje, entonces evalúa si es un mensaje de error o de OK*/
-                if (isset($_GET["mensaje"])){
-                    if($_GET["mensaje"]!="ok"){
-                        echo "<div class='text-center alert alert-danger mt-4 mb-5'>".$_GET["mensaje"]."</div>"; 
-                    }else{
-                        echo "<div class='text-center alert alert-success mt-4 mb-5'>✅ Registro exitoso.</div>";  
-                    }
-                } 
-            ?>  
+            </form>  
         </div>
     </section>
 
