@@ -6,6 +6,11 @@ nav a {
   color: white !important;
 }
 
+.navbar-toggler {
+  color: white !important;
+  background-color: white;
+}
+
 #tag-acceso {
   text-decoration: none;
   margin-left: 15px;
