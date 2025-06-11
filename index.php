@@ -24,9 +24,9 @@
 
   </section>
 
-  <footer id="general-footer">
-    <!--  Pie de página  -->
-  </footer>
+  <?php 
+    require_once 'php/components/footer.php';
+  ?>
 </body>
 
 <!--  Scripts  -->

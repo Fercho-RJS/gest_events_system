@@ -9,7 +9,7 @@
 
 <nav class="navbar navbar-expand-lg bg-primary">
   <div class="container-fluid ">
-    <a translate="false" class="navbar-brand" href="#"><img src="http://localhost/gest_events_system/public/img/logos/full_white.png" alt="Logotipo de la web" height="40"></a>
+    <a translate="false" class="navbar-brand" href="http://localhost/gest_events_system/index.php"><img src="http://localhost/gest_events_system/public/img/logos/full_white.png" alt="Logotipo de la web" height="40"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
