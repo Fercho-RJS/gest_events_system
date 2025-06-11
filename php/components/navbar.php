@@ -4,7 +4,7 @@
 ?>
 
 <head>
-  <link rel="stylesheet" href="../../css/custom-index.css">
+  <link rel="stylesheet" href="../../css/custom-navbar.css">
 </head>
 
 <nav class="navbar navbar-expand-lg bg-primary">

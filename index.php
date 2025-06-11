@@ -9,7 +9,7 @@
   <link rel="icon" href="public/img/favicon/icon.png" type="image/x-icon">
   <!--  Mantener el Custom Index CSS al final  -->
   <link rel="stylesheet" href="css/custom-index.css">
-  
+  <link rel="stylesheet" href="css/custom-navbar.css">
 </head>
 
 <body id="general-container">
