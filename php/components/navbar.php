@@ -36,7 +36,7 @@
           <?php
           } else {
             ?>
-            
+            <!-- En caso de futuro uso. -->
             <?php
           }
         ?>

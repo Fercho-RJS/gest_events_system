@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inicio</title>
+  <title>Inicio  |  E-Web.net</title>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+  <link rel="icon" href="public/img/favicon/icon.png" type="image/x-icon">
   <!--  Mantener el Custom Index CSS al final  -->
   <link rel="stylesheet" href="css/custom-index.css">
   
