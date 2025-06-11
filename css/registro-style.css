@@ -1,0 +1,18 @@
+.form-container {
+    max-width: 700px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+.form-group {
+    background: cadetblue;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+label {
+    font-weight: bold;
+}
