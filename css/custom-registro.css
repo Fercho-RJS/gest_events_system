@@ -1,3 +1,4 @@
+@import url(root.css);
 .form-container {
     max-width: 700px;
     margin: auto;
@@ -14,5 +15,6 @@
     margin-bottom: 15px;
 }
 label {
+    color: var(--custom-primary-text) !important;
     font-weight: bold;
 }
