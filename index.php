@@ -20,8 +20,20 @@
   </header>
 
   <section id="general-body">
-
-
+    <div id="" class="row">
+      <div class="col-4 m-4">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis inventore, soluta nobis magnam deserunt culpa earum animi? Aliquam suscipit laboriosam porro at consequuntur nisi. Reiciendis ex incidunt mollitia ut laboriosam?
+        Fugit aliquid, beatae est ullam non exercitationem. Aperiam vero at consequatur, recusandae dolorum laborum quidem minima nihil fugiat labore, molestiae iusto nisi asperiores mollitia</p>
+      </div>
+      <div class="col-4 m-4">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis inventore, soluta nobis magnam deserunt culpa earum animi? Aliquam suscipit laboriosam porro at consequuntur nisi. Reiciendis ex incidunt mollitia ut laboriosam?
+        Fugit aliquid, beatae est ullam non exercitationem. Aperiam vero at consequatur, recusandae dolorum laborum quidem minima nihil fugiat labore, molestiae iusto nisi asperiores mollitia</p>
+      </div>
+      <?php
+        require_once 'php/components/right-panel.php';
+      ?>
+    </div>
+    
   </section>
 
   <?php 
