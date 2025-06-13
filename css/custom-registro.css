@@ -22,10 +22,10 @@ input{
     border: 1px solid black;
 }
 h2{
-    color: var (--primary-color) !important;
+    color: var(--primary-color) !important;
     font-weight: bold;
 }
 h6{
-    color: var (--primary-color) !important;
+    color: var(--primary-color) !important;
     font-weight: bold;
 }
